@@ -53,7 +53,7 @@ exports.handler = async (event) => {
   }
   await docClient.put({
     TableName: groupsTable,
-    Items: newItem
+    Item: newItem
   }).promise()
 
   const response = {
