@@ -12,5 +12,7 @@ We want to create a post method that we can use to add new item to our dynamodb 
 - click on the dropdown 'upload from' and select zip file
 - upload the zip file created
 - click on the configuration tab and select environment variables and add the 'GROUPS_TABLE' and <name of the dynamodb table>
+- click on the permissions tab and select the execution role assigned to the lambda function.
+- edit the permission to allow our function to write to the database.
 
 
